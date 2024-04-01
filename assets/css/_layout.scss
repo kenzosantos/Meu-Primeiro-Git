@@ -1,26 +1,54 @@
 body {
-    font-family: $font;
-    transition: all 0.5s;
-  
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-  
-    // body div.dark
-    // tiver um filho com a classe dark
-    .dark {}
-  
-    // body class="dark" tiver a classe
-    &.dark {
-      background-color: $cor-primaria;
-      color: $cor-terciaria;   
-    }
+  font-family: $font;
+  transition: all 0.5s;
+
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+
+  // body div.dark
+  // tiver um filho com a classe dark
+  .dark {
   }
-  
-  .container {
-    max-width: 2000px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: blue;
-    margin-left: auto;
-    margin-right: auto;
+
+  // body class="dark" tiver a classe
+  &.dark {
+    background-color: $cor-primaria;
+    color: $cor-terciaria;
   }
+}
+
+.container {
+  max-width: 1000px;
+  border-width: 7px;
+  border-style: solid;
+  border-color: red;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.containerdois {
+  max-width: 1000px;
+  border-width: 7px;
+  border-style: solid;
+  border-color: yellow ;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.containertreis {
+  max-width: 1000px;
+  border-width: 7px;
+  border-style: solid;
+  border-color: darkred;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.containerquatro {
+  max-width: 1000px;
+  border-width: 7px;
+  border-style: solid;
+  border-color: lime;
+  margin-left: auto;
+  margin-right: auto;
+}

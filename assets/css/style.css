@@ -22,10 +22,67 @@ body.dark {
 }
 
 .container {
-  max-width: 2000px;
-  border-width: 5px;
+  max-width: 1000px;
+  border-width: 7px;
   border-style: solid;
-  border-color: blue;
+  border-color: red;
   margin-left: auto;
   margin-right: auto;
+}
+
+.containerdois {
+  max-width: 1000px;
+  border-width: 7px;
+  border-style: solid;
+  border-color: yellow;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.containertreis {
+  max-width: 1000px;
+  border-width: 7px;
+  border-style: solid;
+  border-color: darkred;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.containerquatro {
+  max-width: 1000px;
+  border-width: 7px;
+  border-style: solid;
+  border-color: lime;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul.blocos {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul.blocos li {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+}
+ul.blocos li:nth-child(1) {
+  background-color: red;
+}
+ul.blocos li:nth-child(2) {
+  background-color: black;
+}
+ul.blocos li:nth-child(3) {
+  background-color: red;
+}
+
+.animated-button {
+  display: flex;
+  border: 13px;
+  background-color: aqua;
 }/*# sourceMappingURL=style.css.map */

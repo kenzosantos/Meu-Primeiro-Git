@@ -57,6 +57,24 @@ body.dark {
   margin-right: auto;
 }
 
+.containercinco {
+  max-width: 500px;
+  border-width: 7px;
+  border-style: solid;
+  border-color: yellow;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.containerseis {
+  max-width: 1000px;
+  border-width: 7px;
+  border-style: solid;
+  border-color: darkred;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 ul.blocos {
   display: flex;
   justify-content: space-around;
@@ -83,6 +101,8 @@ ul.blocos li:nth-child(3) {
 
 .animated-button {
   display: flex;
-  border: 13px;
-  background-color: aqua;
+  border-radius: 13px;
+  background-color: darkred;
+  padding: 38px;
+  font-size: 100%;
 }/*# sourceMappingURL=style.css.map */
